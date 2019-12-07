@@ -21,6 +21,7 @@ public:
     const std::string& getStatus() const;
     const std::string& getToken() const;
     const std::string& getScope() const;
+    const std::string& getNotification() const;
 };
 
 Deserializer::Deserializer(std::string fileName) {
@@ -64,7 +65,10 @@ void Deserializer::separate(std::string line) {
         command = fields[0];
         scope = fields[1];
     }
-
+    if (fields[0] == "NOTIFICATION") {
+        command = fields[0];
+        notification = fields[1];
+    }
 }
 
 const std::string& Deserializer::getStatus() const {
@@ -77,6 +81,10 @@ const std::string& Deserializer::getToken() const {
 
 const std::string& Deserializer::getScope() const {
     return scope;
+}
+
+const std::string & Deserializer::getNotification() const {
+    return notification;
 }
 
 #endif //PROYECTOFINAL_DESERIALIZER_HPP

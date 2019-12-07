@@ -1,3 +1,3 @@
-C:/Users/Sebastian Q.B/Documents/GitHub/POO2-PF/ProyectoFinal/cmake-build-debug/CMakeFiles/ProyectoFinal.dir
-C:/Users/Sebastian Q.B/Documents/GitHub/POO2-PF/ProyectoFinal/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Sebastian Q.B/Documents/GitHub/POO2-PF/ProyectoFinal/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Sebastian Q.B/Desktop/ProyectoFinalx/cmake-build-debug/CMakeFiles/ProyectoFinal.dir
+C:/Users/Sebastian Q.B/Desktop/ProyectoFinalx/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Sebastian Q.B/Desktop/ProyectoFinalx/cmake-build-debug/CMakeFiles/rebuild_cache.dir

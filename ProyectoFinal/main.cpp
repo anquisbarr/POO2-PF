@@ -1,33 +1,26 @@
 #include <iostream>
-#include <windows.h>
 #include "handshake.hpp"
 #include "place_fleet.hpp"
 #include "attack.hpp"
 #include "deserializer.hpp"
+#include <windows.h>
 
 int main() {
 
-    Command* handshake = new Handshake("FirstPlayer.in", "Team1.0");
+    Command* handshake = new Handshake("SecondPlayer.in", "Team2.0");
     handshake->save();
-
-    Sleep(1500);
-
-    Deserializer* deserializer = new Deserializer("FirstPlayer.out");
-    std:: string token = deserializer->getToken();
-
-    std::cout << token << std::endl;
-    Sleep(1500);
-    Command* place_fleet = new PlaceFleet("FirstPlayer.in", token, "A", "B", "1", "H");
-    if (deserializer->getStatus() == "ACCEPTED") {
-        place_fleet->save();
+    Sleep(3000);
+    auto handshake_out = new Deserializer("SecondPlayer.out");
+    const std:: string& token = handshake_out->getToken();
+    Sleep(3000);
+    Command* place_fleet = new PlaceFleet("SecondPlayer.in", token);
+    place_fleet->save();
+    Sleep(5000);
+    auto place_fleet_out = new Deserializer("SecondPlayer.not");
+    while(true) {
+        if (place_fleet_out->getNotification() == "YOUR TURN") {
+            Command* attack = new Attack("SecondPlayer.in", token);
+            attack->save();
+        }
     }
-
-    /*Command* attack = new Attack("Attack.in", token, "B", "3");
-    attack->save();
-    */
-
-    delete handshake;
-    delete place_fleet;
-    //delete attack;
-    return 0;
 }

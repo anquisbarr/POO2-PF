@@ -14,8 +14,8 @@ protected:
     std::string fileName;
 public:
     Command(std::string);
-    void save();
     virtual std::string generateCommand() = 0;
+    void save();
 };
 
 Command::Command(std::string fileName) : fileName(fileName) {}

@@ -1,4 +1,4 @@
-"D:\CLion 2019.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "C:\Users\Sebastian Q.B\Documents\GitHub\POO2-PF\ProyectoFinal"
+"D:\CLion 2019.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "C:\Users\Sebastian Q.B\Desktop\ProyectoFinalx"
 -- The C compiler identification is GNU 9.2.0
 -- The CXX compiler identification is GNU 9.2.0
 -- Check for working C compiler: D:/MinGW/MinGW/bin/gcc.exe
@@ -15,4 +15,4 @@
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/Sebastian Q.B/Documents/GitHub/POO2-PF/ProyectoFinal/cmake-build-debug
+-- Build files have been written to: C:/Users/Sebastian Q.B/Desktop/ProyectoFinalx/cmake-build-debug

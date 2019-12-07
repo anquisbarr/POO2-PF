@@ -1,6 +1,6 @@
-cmake_minimum_required(VERSION 3.14)
+cmake_minimum_required(VERSION 3.15)
 project(ProyectoFinal)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(ProyectoFinal main.cpp deserializer.hpp)
+add_executable(ProyectoFinal main.cpp)

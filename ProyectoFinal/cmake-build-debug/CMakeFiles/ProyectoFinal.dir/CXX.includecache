@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Sebastian Q.B/Documents/GitHub/POO2-PF/ProyectoFinal/attack.hpp
+C:/Users/Sebastian Q.B/Desktop/ProyectoFinalx/attack.hpp
 command.hpp
-C:/Users/Sebastian Q.B/Documents/GitHub/POO2-PF/ProyectoFinal/command.hpp
+C:/Users/Sebastian Q.B/Desktop/ProyectoFinalx/command.hpp
+ctime
+-
 
-C:/Users/Sebastian Q.B/Documents/GitHub/POO2-PF/ProyectoFinal/command.hpp
+C:/Users/Sebastian Q.B/Desktop/ProyectoFinalx/command.hpp
 string
 -
 vector
@@ -20,7 +22,7 @@ fstream
 sstream
 -
 
-C:/Users/Sebastian Q.B/Documents/GitHub/POO2-PF/ProyectoFinal/deserializer.hpp
+C:/Users/Sebastian Q.B/Desktop/ProyectoFinalx/deserializer.hpp
 string
 -
 vector
@@ -30,27 +32,33 @@ fstream
 sstream
 -
 
-C:/Users/Sebastian Q.B/Documents/GitHub/POO2-PF/ProyectoFinal/handshake.hpp
+C:/Users/Sebastian Q.B/Desktop/ProyectoFinalx/handshake.hpp
 string
 -
 command.hpp
-C:/Users/Sebastian Q.B/Documents/GitHub/POO2-PF/ProyectoFinal/command.hpp
+C:/Users/Sebastian Q.B/Desktop/ProyectoFinalx/command.hpp
 
-C:/Users/Sebastian Q.B/Documents/GitHub/POO2-PF/ProyectoFinal/main.cpp
+C:/Users/Sebastian Q.B/Desktop/ProyectoFinalx/main.cpp
 iostream
 -
+handshake.hpp
+C:/Users/Sebastian Q.B/Desktop/ProyectoFinalx/handshake.hpp
+place_fleet.hpp
+C:/Users/Sebastian Q.B/Desktop/ProyectoFinalx/place_fleet.hpp
+attack.hpp
+C:/Users/Sebastian Q.B/Desktop/ProyectoFinalx/attack.hpp
+deserializer.hpp
+C:/Users/Sebastian Q.B/Desktop/ProyectoFinalx/deserializer.hpp
 windows.h
 -
-handshake.hpp
-C:/Users/Sebastian Q.B/Documents/GitHub/POO2-PF/ProyectoFinal/handshake.hpp
-place_fleet.hpp
-C:/Users/Sebastian Q.B/Documents/GitHub/POO2-PF/ProyectoFinal/place_fleet.hpp
-attack.hpp
-C:/Users/Sebastian Q.B/Documents/GitHub/POO2-PF/ProyectoFinal/attack.hpp
-deserializer.hpp
-C:/Users/Sebastian Q.B/Documents/GitHub/POO2-PF/ProyectoFinal/deserializer.hpp
 
-C:/Users/Sebastian Q.B/Documents/GitHub/POO2-PF/ProyectoFinal/place_fleet.hpp
+C:/Users/Sebastian Q.B/Desktop/ProyectoFinalx/place_fleet.hpp
 command.hpp
-C:/Users/Sebastian Q.B/Documents/GitHub/POO2-PF/ProyectoFinal/command.hpp
+C:/Users/Sebastian Q.B/Desktop/ProyectoFinalx/command.hpp
+ctime
+-
+string
+-
+utility
+-
 
