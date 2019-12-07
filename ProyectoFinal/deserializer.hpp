@@ -14,6 +14,7 @@ private:
     std::string status;
     std::string token;
     std::string scope;
+    std::string notification;
 public:
     Deserializer(std::string);
     void separate(std::string line);
@@ -63,6 +64,7 @@ void Deserializer::separate(std::string line) {
         command = fields[0];
         scope = fields[1];
     }
+
 }
 
 const std::string& Deserializer::getStatus() const {

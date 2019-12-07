@@ -11,8 +11,18 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9e4d6dd-75ba-4226-aa3c-0067b9277015" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="f9e4d6dd-75ba-4226-aa3c-0067b9277015" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Attack.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Battleship.exe.config" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Battleship.exe.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FirstPlayer.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FirstPlayer.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/PlaceFleet.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ProyectoFinal.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ProyectoFinal.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deserializer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/deserializer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/place_fleet.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/place_fleet.hpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,22 +36,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1UDmqqupBzYqxyE5pAwi0mPvgP6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="ProyectoFinal" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ProyectoFinal" TARGET_NAME="ProyectoFinal" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ProyectoFinal" RUN_TARGET_NAME="ProyectoFinal">
@@ -49,6 +52,18 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -63,10 +78,37 @@
       <workItem from="1574899734792" duration="967000" />
       <workItem from="1575357016349" duration="2026000" />
       <workItem from="1575496032798" duration="9055000" />
+      <workItem from="1575676842029" duration="9238000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="267" y="274" key="FileChooserDialogImpl" timestamp="1575700206527">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="267" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1575700206527" />
+    <state width="914" height="281" key="GridCell.Tab.0.bottom" timestamp="1575701084922">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575701084922" />
+    <state width="914" height="281" key="GridCell.Tab.0.center" timestamp="1575701084921">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575701084921" />
+    <state width="914" height="281" key="GridCell.Tab.0.left" timestamp="1575701084921">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575701084921" />
+    <state width="914" height="281" key="GridCell.Tab.0.right" timestamp="1575701084921">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575701084921" />
+    <state x="183" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1575676846932">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="183" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575676846932" />
   </component>
 </project>
